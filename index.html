@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Pesquisa de Campo</title>
+</head>
+
+<body>
+        <section class="cabecalho">
+            <div class="cabecalho__container">
+                <img src="img/image 1.svg" alt="imagem maçã" class="cabecalho__imagem">
+            </div>
+            <h1 class="cabecalho__titulo">Formulário de satisfação Escola Isac Newton</h1>
+            <p class="cabecalho__texto">Responda as perguntas com base na sua experiência com a instituição.</p>
+            <p class="cabecalho__obrigatorio">*Obrigatório</p>
+            <input type="text" id="nome" class="input input__nome" required placeholder="Nome*">
+            <input type="number" id="matricula" class="input input__matricula" required
+                placeholder="Número de matrícula*">
+
+        </section>
+
+        <section class="secundario">
+            <h2 class="secundario__titulo">Qual seu nível de satisfação com a escola?</h2>
+            <div class="secundario__container">
+                <div class="container__radio">
+                    <input type="radio" id="radio-bom" name="satisfacao">
+                    <label for="radio-bom">Bom</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-otimo" name="satisfacao">
+                    <label for="radio-otimo">Ótimo</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-excelente" name="satisfacao">
+                    <label for="radio-excelente">Excelente</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-ruim" name="satisfacao">
+                    <label for="radio-ruim">Ruim</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="secundario">
+            <h2 class="secundario__titulo">Qual seu nível de satisfação com o atendimento realizado pela escola?</h2>
+            <div class="secundario__container">
+                <div class="container__radio">
+                    <input type="radio" id="radio-atendimento-bom" name="atendimento">
+                    <label for="radio-atendimento-bom">Bom</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-atendimento-otimo" name="atendimento">
+                    <label for="radio-atendimento-otimo">Ótimo</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-atendimento-excelente" name="atendimento">
+                    <label for="radio-atendimento-excelente">Excelente</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-atendimento-ruim" name="atendimento">
+                    <label for="radio-atendimento-ruim">Ruim</label>
+                </div>
+            </div>
+        </section>
+
+        <section class="secundario">
+            <h2 class="secundario__titulo">Qual seu nível de satisfação com o atendimento realizado pela escola?</h2>
+            <div class="secundario__container">
+                <div class="container__radio">
+                    <input type="radio" id="radio-sim" name="voto">
+                    <label for="radio-sim">Sim</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-nao" name="voto">
+                    <label for="radio-nao">Não</label>
+                </div>
+        </section>
+
+        <section class="secundario">
+            <h2 class="secundario__titulo">Seu filho sente motivado em participar das aulase eventos de nossa escola?</h2>
+            <div class="secundario__container">
+                <div class="container__radio">
+                    <input type="radio" id="radio-motivacao-sim" name="motivacao">
+                    <label for="radio-motivacao-sim">Sim</label>
+                </div>
+                <div class="container__radio">
+                    <input type="radio" id="radio-motivacao-nao" name="motivacao">
+                    <label for="radio-motivacao-nao">Não</label>
+                </div>
+        </section>
+
+        <button class="botao">Enviar respostas</button>
+</body>
+
+</html>
